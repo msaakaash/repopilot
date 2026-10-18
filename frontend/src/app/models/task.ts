@@ -1,0 +1,1 @@
+export interface Task { id:string; repository_url:string; request:string; branch:string; status:string; created_at:string; updated_at:string; plan?:{summary:string;steps:string[];affected_files:string[];tests:string[];risks:string[]}; result?:any; error?:string; }

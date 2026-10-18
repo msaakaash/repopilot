@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Frontend and Angular
+node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+
+# Local application data and generated workspaces
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Docker and tooling overrides
+docker-compose.override.yml
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
