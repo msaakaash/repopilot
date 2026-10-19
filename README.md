@@ -1,6 +1,13 @@
-<h1 align="center"><img src="frontend/src/assets/repopilot-logo.png" alt="" width="48" height="70" style="vertical-align: middle; clip-path: inset(0 0 2%);"> RepoPilot</h1>
+<div align="center"><img src="frontend/src/assets/repopilot-logo.png" alt="" width="56" height="56" style="vertical-align: middle;"> <span style="font-size: 2em; font-weight: bold;">RepoPilot</span></div>
 
-RepoPilot helps teams understand and improve their software repositories. It's AI agents investigate repository related questions, connect relevant evidence, and develop actionable plans and proposed changes. Teams review and approve changes before they are applied. The dashboard brings tasks, decisions, and outcomes together in one place.
+<p align="center"><strong>Repository intelligence for engineering teams.</strong></p>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT">
+    <img src="https://img.shields.io/badge/version-v1.0-blue" alt="Version: v1.0">
+</div>
+
+RepoPilot helps teams understand and improve their software repositories. It's AI agents investigate repository related questions, connect relevant evidence, and develop actionable plans and proposed changes.
 
 ## Overview
 
