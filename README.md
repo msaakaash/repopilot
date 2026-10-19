@@ -19,11 +19,10 @@ RepoPilot helps teams understand and improve their software repositories. It's A
 
 ## Overview
 
-- Inspects a GitHub repository and build a searchable code graph;
-- Maps files, symbols, APIs, dependencies, and repository metadata into Neo4j;
-- Retains task and investigation memory in PostgreSQL;
-- Uses an LLM with the agent harness and Pydantic AI to create plans and propose changes;
-- Runs approved repository tests in an isolated Docker workflow; and
+- Builds a searchable, ontology-driven graph of repository files, symbols, APIs, and dependencies, showing how they relate.
+- Investigates repository related questions by finding relevant code and retaining task and investigation context.
+- Turns investigation findings into structured plans and proposed changes using its agent harness.
+- Presents proposed changes for approval, then applies approved changes in an isolated Docker workflow and runs relevant tests.
 
 ## Architecture
 
@@ -122,5 +121,10 @@ npm start
 Open the dashboard at `http://localhost:4200`; the API is at `http://localhost:8000` and its interactive documentation is at `http://localhost:8000/docs`.
 
 
-## License  
-This project is licensed under the [MIT LICENSE](LICENSE).
+## Code of Conduct
+
+Please read our [Code of Conduct](docs/CODE_OF_CONDUCT.md) before participating.
+
+## License
+
+This project is licensed under the [MIT License](docs/LICENSE.md).
