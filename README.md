@@ -1,10 +1,17 @@
-<div align="center"><img src="frontend/src/assets/repopilot-logo.png" alt="" width="56" height="56" style="vertical-align: middle;"> <span style="font-size: 2em; font-weight: bold;">RepoPilot</span></div>
-
-<p align="center"><strong>Repository intelligence for engineering teams.</strong></p>
-
 <div align="center">
+
+  <h1>
+    <img src="frontend/src/assets/repopilot-logo.png" alt="RepoPilot Logo" width="64" height="64" align="center">
+    RepoPilot
+  </h1>
+
+  <h3>Repository intelligence for engineering teams.</h3>
+
+  <p>
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT">
     <img src="https://img.shields.io/badge/version-v1.0-blue" alt="Version: v1.0">
+  </p>
+
 </div>
 
 RepoPilot helps teams understand and improve their software repositories. It's AI agents investigate repository related questions, connect relevant evidence, and develop actionable plans and proposed changes.
