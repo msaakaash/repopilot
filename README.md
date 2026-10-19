@@ -1,14 +1,15 @@
 <div align="center">
 
-  <h1>
-    <img src="frontend/src/assets/repopilot-logo.png" alt="RepoPilot Logo" width="64" height="64" align="center">
-    RepoPilot
-  </h1>
+  <p>
+    <img src="frontend/src/assets/repopilot-logo.png" alt="RepoPilot Logo" height="64" align="center">
+    <img src="frontend/src/assets/repo-title.png" alt="RepoPilot" height="56" align="center">
+  </p>
 
-  <h3>Repository intelligence for engineering teams.</h3>
+  <p><strong>Repository intelligence for engineering teams.</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT">
+    &nbsp;
     <img src="https://img.shields.io/badge/version-v1.0-blue" alt="Version: v1.0">
   </p>
 
